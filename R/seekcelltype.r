@@ -16,7 +16,7 @@
 #' @param ... Optional The parameters used in ellmer::chat_openai().
 
 #' @import ellmer 
-#' @import tidyverse
+#' @import dplyr
 #' @export
 #' @return A vector of cell types when the user provide Deepseek_key or the prompt itself when DEEPSEEK_API_KEY = NULL (default)
 #' @author Wang Li <liwang@nibs.ac.cn>

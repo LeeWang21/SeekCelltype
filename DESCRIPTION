@@ -1,0 +1,16 @@
+Package: SeekCelltype
+Title: A Package for Cell Type Annotation with Large Language Model 
+Version: 0.1.0
+Authors@R: 
+    person("Wang", "Li", , "liwang@nibs.ac.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A package for annotating cell types using LLM including Deepseek.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends:
+    R (>= 4.0.0)
+Imports:
+    ellmer,
+    tidyverse

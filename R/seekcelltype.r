@@ -7,7 +7,7 @@
 #' @param input Either the differential gene table returned by Seurat FindAllMarkers() function, or a list of genes.
 #' @param tissuename Optional input of tissue name.
 #' @param base_url The url for Deepseek model. Default is 'https://api.deepseek.com'.
-#' @param model The Deepseek model. Default is 'deepseek-chat'.
+#' @param model The Deepseek model. Default is 'deepseek-chat'. The optional models include 'deepseek-chat', 'deepseek-reasoner'
 #' @param tissuename Optional input of tissue name.
 #' @param DEEPSEEK_API_KEY The Deepseek key. The default is NULL, which will resulting outputing the prompt itself. If an actual key is provided, then the output will be the celltype annotations from the GPT model specified by the user. 
 #' @param system_prompt Optional A system prompt to set the behavior of the assistant. Default is 'You are an expert bioinformatician in single-cell RNA data analysis'

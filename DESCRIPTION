@@ -1,6 +1,6 @@
 Package: SeekCelltype
 Title: A Package for Cell Type Annotation with Large Language Model 
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("Wang", "Li", , "liwang@nibs.ac.cn", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))

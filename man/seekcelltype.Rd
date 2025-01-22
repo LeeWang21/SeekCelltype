@@ -23,7 +23,7 @@ seekcelltype(
 
 \item{base_url}{The url for Deepseek model. Default is 'https://api.deepseek.com'.}
 
-\item{model}{The Deepseek model. Default is 'deepseek-chat'.}
+\item{model}{The Deepseek model. Default is 'deepseek-chat'. The optional models include 'deepseek-chat', 'deepseek-reasoner'}
 
 \item{DEEPSEEK_API_KEY}{The Deepseek key. The default is NULL, which will resulting outputing the prompt itself. If an actual key is provided, then the output will be the celltype annotations from the GPT model specified by the user.}
 

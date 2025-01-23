@@ -8,7 +8,7 @@ seekcelltype(
   input,
   tissuename = NULL,
   base_url = "https://api.deepseek.com",
-  model = "deepseek-chat",
+  anno_model = "deepseek-reasoner",
   DEEPSEEK_API_KEY = NULL,
   system_prompt = "You are an expert bioinformatician in single-cell RNA data analysis",
   seed = 24,
@@ -19,11 +19,11 @@ seekcelltype(
 \arguments{
 \item{input}{Either the differential gene table returned by Seurat FindAllMarkers() function, or a list of genes.}
 
-\item{tissuename}{Optional input of tissue name.}
+\item{tissuename}{input of tissue name.}
 
 \item{base_url}{The url for Deepseek model. Default is 'https://api.deepseek.com'.}
 
-\item{model}{The Deepseek model. Default is 'deepseek-chat'. The optional models include 'deepseek-chat', 'deepseek-reasoner'}
+\item{anno_model}{The Deepseek model. Default is 'deepseek-reasoner'. The optional models include 'deepseek-chat', 'deepseek-reasoner'}
 
 \item{DEEPSEEK_API_KEY}{The Deepseek key. The default is NULL, which will resulting outputing the prompt itself. If an actual key is provided, then the output will be the celltype annotations from the GPT model specified by the user.}
 
